@@ -398,3 +398,40 @@ h3{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+.features{
+    padding: 50px;
+    padding-bottom: 50px;
+
+}
+
+.feature-row{
+    width:80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+    
+}
+
+.feature-col img{
+    width: 100px;
+}
+
+.feature-col h4{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+}
+
+.feature-col li{
+    list-style-type: none;
+}
