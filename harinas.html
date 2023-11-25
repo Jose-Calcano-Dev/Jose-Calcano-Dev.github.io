@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width\, 
+    initial-scale=1.0">
+    <title>HIngredion</title>
+    <link rel="stylesheet" href="./assets/css/harinas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index"><img src="./assets/img/AA Logo.pdf.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index">HOME</a></li>
+                    <li><a href="beneficios">BENEFICIOS</a></li>
+                    <li><a href="harinas">PRODUCTOS</a></li>
+                    <li><a href="about">NOSOTROS</a></li>
+                    <li><a href="compra">COMPRA</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Productos</h1>
+
+</section>
+
+<!-------------------------------------------------------------->
+
+<section class="productos">
+    <div class="row">
+    <div class="small-container"> 
+        <h2>Nuestros productos disponibles</h2>
+        <div class="rowPR">
+            
+            <div class="col-4">
+                <br>
+                <img src="./assets/img/amaranto1.png"">
+                <h4>Harina de Amaranto</h4>
+                <p>$200</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <br>
+                <img src="./assets/img/soja.png">
+                <h4>Harina de Soja</h4>
+                <p>$200</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <br>
+                <img src="./assets/img/Lenteja.png">
+                <h4>Harina de Lentejas</h4>
+                <p>$200</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+</section>
+<!-------------------------------------------------------------->
+
+
+<!-------------------------------------------------------------->
+
+<section class="footer">
+
+    <h4></h4>
+    <p>HIngredion. All rights reserved.</p>
+    <p> Realizado por Alejandra González. R</p>
+
+</section>
+
+<!-------------------------------------------------------------->
+
+<script src="https://kit.fontawesome.com/ebed9afc8c.js" crossorigin="anonymous"></script>
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
