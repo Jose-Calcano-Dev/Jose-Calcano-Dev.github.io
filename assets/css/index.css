@@ -456,3 +456,36 @@ button:hover{
     cursor: pointer;
     padding: 18px 0;
 }
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.rowPR{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
