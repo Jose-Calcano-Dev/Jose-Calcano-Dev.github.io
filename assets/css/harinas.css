@@ -453,6 +453,7 @@ h3{
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
+    transition: transform 0.5s;
 }
 
 .col-4 img{
@@ -464,4 +465,8 @@ h3{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.col-4:hover{
+    transform: translate(-5px);
 }
